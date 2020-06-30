@@ -5,7 +5,8 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
+  hash = Hash.new
   array.each_with_index do |array, index|
-    puts array + index 
+    hash[array] = index
   end
 end
