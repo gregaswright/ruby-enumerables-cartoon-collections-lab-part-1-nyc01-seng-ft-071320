@@ -9,4 +9,5 @@ def list_dwarves(array)
   array.each_with_index do |array, index|
     hash[array] = index
   end
+  hash
 end
